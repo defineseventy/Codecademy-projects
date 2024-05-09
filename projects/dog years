@@ -1,1 +1,16 @@
-
+//set age of human and early years
+const myAge = 22;
+let earlyYears = 2;
+//multiply early years by 10.5
+earlyYears *= 10.5;
+//have later years = age of human - 2, and multiply by 4 for later years
+let laterYears = myAge - 2;
+laterYears *= 4;
+console.log("Early years: " + earlyYears);
+console.log("Later years: " + laterYears);
+//add both early + later years tgt tp get age in dog years
+let myAgeInDogYears = laterYears + earlyYears;
+//write my name as a string and put to lowercase, need ()
+let myName = 'Jacqueline'.toUpperCase();
+//now print out
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
